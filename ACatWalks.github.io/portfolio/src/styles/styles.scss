@@ -1,0 +1,305 @@
+@import "globals";
+
+body{
+    font-family: $regular;
+    background-color: $cream;
+    color: $black;
+}
+.nav {
+    background-color: $black;
+    & ul {
+        display: flex;
+        flex-direction: row;
+        list-style-type: none;
+        & .my-title {
+            font-family: $fancy;
+            padding: 20px 15px;
+            text-decoration: none;
+            font-size: 2rem;
+            & a:link {
+                text-decoration: none;
+            }
+        }
+        & .tabs {
+            display: flex;
+            flex-direction: row;
+            margin-left: 400px;
+            @media screen and (max-width: 950px){
+                margin-left: 50px;
+            }
+            @media screen and (max-width: 650px){
+                display: none;
+            }
+            & li {
+                text-decoration: none;
+                padding: 35px 15px 20px 15px;
+            }
+            & a:link {
+                text-decoration: none;
+            }
+            & a:hover {
+                color: $hover-color !important;
+            }
+        }
+    }
+}
+.footer {
+    background-color: $black;
+    color: $cream;
+    text-align: center;
+    margin-top: 150px;
+    & ul {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        & a:link {
+            text-decoration: none;
+        }
+    }
+    & .foot-tabs{
+        display: flex;
+        justify-content: center;
+        & li {
+            padding: 20px 15px 5px 15px;
+            & a:hover {
+                color: $hover-color !important;
+            }
+        }
+    }
+    & .social-media{
+        display: flex;
+        justify-content: center;
+        & li {
+            padding: 5px 15px 20px 15px;
+        }
+    }
+    & p {
+        text-align: center;
+    }
+}
+.contact {
+    text-align: center;
+    & li {
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        & .fa-icon {
+            position: relative;
+            top: 2px;
+            margin-right: 10px;
+        }
+    }
+    & .linkedin{
+        position: relative;
+        left: 78px;
+        @media screen and (max-width: 500px){
+            display: none;
+        }
+    }
+    & .github{
+        position: relative;
+        left: 20px;
+        @media screen and (max-width: 300px){
+            position: relative;
+            left: 8px;
+        }
+    }
+    & .resume{
+        position: relative;
+        right: 24px;
+        @media screen and (max-width: 300px){
+            position: relative;
+            right: 15px;
+            & .resume-container{
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+    & button {
+        color: $cream;
+        background-color: $black;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 50%;
+        @media screen and (max-width: 300px){
+            padding: 5px;
+        }
+        & a{
+            text-decoration: none;
+        }
+    }
+}
+.about {
+    & #headline {
+        text-align: center;
+    }
+    & .container {
+        border-bottom: 1px dotted $black;
+        display: flex;
+        flex-direction: row;
+        & .left{
+            width: 60%;
+            padding-left: 20px;
+            padding-bottom: 10px;
+            @media screen and (max-width: 650px){
+                width: 100%;
+            }
+        }
+        & .right {
+            width: 40%;
+            background-image: url('../images/F2DB58BE-B88D-4118-9905-169F5349A83A.jpeg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            @media screen and (max-width: 650px) {
+                display: none;
+            }
+        }
+    }
+    & #skills{
+        text-align: center;
+    }
+    & button{
+        color: $cream;
+        background-color: $black;
+        text-decoration: none;
+        padding: 10px;
+        border-radius: 50%;
+        & a{
+            text-decoration: none;
+        } 
+    }
+    & .button-container{
+        display: flex;
+        justify-content: center;
+    }
+    & .card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        @media screen and (max-width: 650px){
+            margin-left: 15px;
+        }
+        @media screen and (max-width: 300px){
+            margin-left: 66px;
+        }
+        & .card{
+            border: 1px solid black;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-bottom: 35px;
+            @media screen and (max-width:650px){
+                margin-left: 5px;
+                margin-right: 5px;
+            }
+            @media screen and (max-width: 300px){
+                margin-left: 1px;
+                margin-right: 1px;
+            }
+            & .header{
+                text-align: center;
+                background-color: lightgrey;
+                margin-top: 0;
+                padding: 15px;
+            }
+            & .body{
+              padding-right: 20px;
+              padding-top: 10px;
+              padding-bottom: 10px;
+              padding-left: 10px;
+              @media screen and (max-width: 650px){
+                padding-right: 10px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                padding-left: 5px;
+              }
+              @media screen and (max-width: 300px){
+                padding-right: 5px;
+                padding-top: 1px;
+                padding-bottom: 1px;
+                padding-left: 1px;
+              }
+            }
+        }
+    }
+    & .hero{
+        text-align: center;
+        background-image: url('../images/hexagon-structure-1c-1633276.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        & .hero-txt {
+            color: $cream;
+            border: 5px solid $cream;
+            width: 30%;
+            background-color: $black;
+            opacity: 0.75;
+            @media screen and (max-width: 650px){
+                width: 75%;
+            }
+        }
+    }
+}
+.projects{
+    text-align: center;
+    & .project-card-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        @media screen and (max-width: 300px){
+            justify-content: space-between;
+        }
+        & .card{
+            width: 30%;
+            border: 1px dotted;
+            padding: 10px;
+            @media screen and (max-width: 300px){
+                & h3{
+                    font-size: 0.5em;
+                }
+            }
+            & .repo-button{
+                & a{
+                    text-decoration: none;
+                    margin-left: 5px;
+                    color: $cream;
+                }
+                padding: 10px;
+                border-radius: 10%;
+                background-color: $black;
+            }
+            & .lang-button{
+                padding: 10px;
+                border-radius: 10%;
+                background-color: $cream;
+                color: $black;
+                @media screen and (max-width: 650px){
+                    display: none;
+                }
+            }
+        }
+    }
+    & #img-1{
+        background-image: url('../images/fabian-wiktor-MBKFuFqlMwo-unsplash.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    & #img-2{
+        background-image: url('https://gradepowerlearning.com/wp-content/uploads/2017/08/AdobeStock_104330101.jpeg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+    & #img-3{
+        background-image: url('https://walkingmobilityclinics.com/wp-content/uploads/2019/01/group-of-doctors-1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 200px;
+    }
+}

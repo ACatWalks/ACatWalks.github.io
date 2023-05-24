@@ -1,0 +1,191 @@
+body {
+  font-family: "Helvetica";
+  background-color: #F5FFFA;
+  color: #000000;
+}
+
+.nav {
+  background-color: #000000;
+}
+
+.nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  list-style-type: none;
+}
+
+.nav ul .my-title {
+  font-family: "Apple Chancery";
+  padding: 20px 15px;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.nav ul .my-title a:link {
+  text-decoration: none;
+}
+
+.nav ul .tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-left: 400px;
+}
+
+.nav ul .tabs li {
+  text-decoration: none;
+  padding: 35px 15px 20px 15px;
+}
+
+.nav ul .tabs a:link {
+  text-decoration: none;
+}
+
+.nav ul .tabs a:hover {
+  color: #00FFFF !important;
+}
+
+.footer {
+  background-color: #000000;
+  color: #F5FFFA;
+  text-align: center;
+  margin-top: 150px;
+}
+
+.footer ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.footer ul a:link {
+  text-decoration: none;
+}
+
+.footer .foot-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .foot-tabs li {
+  padding: 20px 15px 5px 15px;
+}
+
+.footer .foot-tabs li a:hover {
+  color: #00FFFF !important;
+}
+
+.footer .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .social-media li {
+  padding: 5px 15px 20px 15px;
+}
+
+.footer p {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.contact li .fa-icon {
+  position: relative;
+  top: 2px;
+  margin-right: 10px;
+}
+
+.contact button {
+  color: #F5FFFA;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.contact button a {
+  text-decoration: none;
+}
+
+.about #headline {
+  text-align: center;
+}
+
+.about .container {
+  border-bottom: 1px dotted #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+.about .container .left {
+  width: 60%;
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.about .container .right {
+  width: 40%;
+  text-align: center;
+}
+
+.about #skills {
+  text-align: center;
+}
+
+.about button {
+  color: #F5FFFA;
+  background-color: #000000;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.about button a {
+  text-decoration: none;
+}
+
+.about .button-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=styles.css.map */
