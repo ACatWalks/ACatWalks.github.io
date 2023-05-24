@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.9d9bdcc8.css",
+    "main.js": "/portfolio/static/js/main.40f1e2eb.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/hexagon-structure-1c-1633276.jpg": "/portfolio/static/media/hexagon-structure-1c-1633276.0785daa3394569311078.jpg",
+    "static/media/fabian-wiktor-MBKFuFqlMwo-unsplash.jpg": "/portfolio/static/media/fabian-wiktor-MBKFuFqlMwo-unsplash.f0879920babb742aa55c.jpg",
+    "static/media/F2DB58BE-B88D-4118-9905-169F5349A83A.jpeg": "/portfolio/static/media/F2DB58BE-B88D-4118-9905-169F5349A83A.0230473a2e11767d0171.jpeg",
+    "index.html": "/portfolio/index.html",
+    "main.9d9bdcc8.css.map": "/portfolio/static/css/main.9d9bdcc8.css.map",
+    "main.40f1e2eb.js.map": "/portfolio/static/js/main.40f1e2eb.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d9bdcc8.css",
+    "static/js/main.40f1e2eb.js"
+  ]
+}
