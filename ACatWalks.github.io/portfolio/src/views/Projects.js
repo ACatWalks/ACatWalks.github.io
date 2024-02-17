@@ -30,6 +30,13 @@ function Projects() {
                     <p>Web application that allows patients to report symptoms and chat with a doctor.</p>
                     <button className='repo-button' style={{color: '#F5FFFA'}}><FaGithub/><a href="https://github.com/ACatWalks/HouseCall-FE">Repo</a></button>
                 </div>
+                <div className='card'>
+                    <div id="img-4"><img alt="hearts" src="" /></div>
+                    <h3>My Perfect Date</h3>
+                    <button className='lang-button'>React</button><button className='lang-button'>User authentication</button><button className='lang-button'>MongoDB</button>
+                    <p>A simple dating site with a chat feature.</p>
+                    <button className='repo-button' style={{color: '#F5FFFA'}}><FaGithub/><a href="https://github.com/ACatWalks/myperfectdate">Repo</a></button>
+                </div>
             </div>
             <Footer />
         </div>
