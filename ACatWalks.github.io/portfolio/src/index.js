@@ -15,6 +15,7 @@ root.render(
       <Route path="/" element={<About />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/portfolio" element={<About />} />
     </Routes>
   </BrowserRouter>
 );
